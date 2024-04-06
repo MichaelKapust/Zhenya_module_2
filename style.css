@@ -1,0 +1,98 @@
+/* Загальні стилі */
+body {
+    background-color: darkblue;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Шапка */
+header {
+    background-color: red;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    text-align: center;
+    background-color: orangered;
+    padding: 20px 0;
+}
+
+nav a {
+    padding: 0 20px; /* замінено padding-right: 60px; */
+}
+
+/* Основний контент */
+.main_photo {
+    width: 500px;
+    margin: 20px auto; /* центрування фото */
+}
+
+main img {
+    width: 100px;
+}
+
+main p img {
+    width: 200px;
+}
+
+.allinone {
+    width: 400px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    background-color: cornflowerblue;
+    color: black;
+    display: inline-block; /* замінено display: block; */
+    max-width: 500px;
+    margin: 20px auto; /* центрування заголовків */
+    text-align: center;
+    padding: 10px 20px; /* збільшено padding */
+    border-radius: 24px;
+}
+
+/* Блок .main_block */
+.main_block {
+    display: flex;
+    justify-content: center; /* вирівнювання по горизонталі */
+    align-items: center; /* вирівнювання по вертикалі */
+    width: 100%;
+    margin: 0 100px;
+}
+
+.main_block div {
+    margin-right: 20px; /* замінено margin: 0 200px 0 0; */
+}
+
+.downloaded {
+    width: 300px;
+}
+
+.main_table {
+    border: 1px solid lightgreen;
+}
+
+main td {
+    border: 1px solid lightgreen;
+}
